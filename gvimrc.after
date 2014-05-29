@@ -1,0 +1,27 @@
+if has("gui_macvim")
+  macmenu &File.New\ Tab key=<D-S-t>
+endif
+
+"color tomorrow
+"let g:airline_theme='solarized'
+"colorscheme solarized
+let s:background = 'dark'
+colorscheme Tomorrow-Night "Eighties
+let g:airline_theme='tomorrow'
+set guifont=Liberation\ Mono\ for\ Powerline:h14
+"set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
+set guioptions-=T  "Remove toolbar
+set transparency=2
+set guioptions=aAce
+set undofile
+autocmd VimResized * wincmd = "Automatically resize splits when resizing MacVim window
+
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
+
+
