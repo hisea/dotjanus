@@ -6,8 +6,8 @@ endif
 "let g:airline_theme='solarized'
 "colorscheme solarized
 let s:background = 'dark'
-"colorscheme Tomorrow-Nighti "-Eighties
-colorscheme base16-default
+colorscheme Tomorrow-Night "-Eighties
+"colorscheme base16-default
 let g:airline_theme='tomorrow'
 set guifont=Liberation\ Mono\ for\ Powerline:h14
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14

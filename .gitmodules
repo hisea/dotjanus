@@ -1,3 +1,6 @@
 [submodule "airline"]
 	path = airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "bufexplorer"]
+	path = bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
