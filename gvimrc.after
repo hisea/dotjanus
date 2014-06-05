@@ -6,8 +6,7 @@ endif
 "let g:airline_theme='solarized'
 "colorscheme solarized
 let s:background = 'dark'
-colorscheme Tomorrow-Night "-Eighties
-"colorscheme base16-default
+colorscheme Tomorrow-Night "Eighties
 let g:airline_theme='tomorrow'
 set guifont=Liberation\ Mono\ for\ Powerline:h14
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
@@ -16,8 +15,6 @@ set transparency=2
 set guioptions=aAce
 set undofile
 autocmd VimResized * wincmd = "Automatically resize splits when resizing MacVim window
-autocmd BufWritePre * :%s/\s\+$//e "Remove trailing white spaces.
-
 
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
@@ -26,5 +23,4 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = '⎇'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
-
 
