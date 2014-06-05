@@ -4,6 +4,7 @@ filetype plugin indent on
 set encoding=utf-8
 set noswapfile        " No Swap Files
 set nobackup
+set noundofile
 set showmatch " show matching brackets
 
 set showtabline=2
