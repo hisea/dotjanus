@@ -2,12 +2,18 @@ color desert
 syntax enable
 filetype plugin indent on
 set encoding=utf-8
-
+set noswapfile        " No Swap Files
+set nobackup
+set showmatch " show matching brackets
 
 set showtabline=2
 set linespace=2
 
 let g:airline_powerline_fonts = 1
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = '⎇ '
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
@@ -17,3 +23,4 @@ autocmd BufWritePre * :%s/\s\+$//e "Remove trailing white spaces.
 map <C-b> :BufExplorer<CR>
 map <D-w> :q<CR>
 map <Leader>w :Kwbd<CR>
+
