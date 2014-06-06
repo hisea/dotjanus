@@ -22,6 +22,6 @@ let g:airline_symbols.linenr = '⭡'
 autocmd BufWritePre * :%s/\s\+$//e "Remove trailing white spaces.
 
 map <C-b> :BufExplorer<CR>
-map <D-w> :q<CR>
-map <Leader>w :Kwbd<CR>
+map <Leader>qq :q<CR>
+map <Leader>ww :Kwbd<CR>
 
