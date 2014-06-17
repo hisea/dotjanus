@@ -4,7 +4,10 @@ filetype plugin indent on
 set encoding=utf-8
 set noswapfile        " No Swap Files
 set nobackup
-set noundofile
+set undofile                " Save undo's after file closes
+set undodir=$HOME/.vimundo  " where to save undo histories
+set undolevels=1000         " How many undos
+set undoreload=10000
 set showmatch " show matching brackets
 
 set showtabline=2
