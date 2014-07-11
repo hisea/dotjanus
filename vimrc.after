@@ -26,6 +26,8 @@ autocmd BufWritePre * :%s/\s\+$//e "Remove trailing white spaces.
 
 map <C-b> :BufExplorer<CR>
 map <Leader>qq :q<CR>
+map <C-s> :CtrlSpace<CR>
+
 
 " Ag
 if has("gui_macvim") && has("gui_running")
