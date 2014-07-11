@@ -7,3 +7,6 @@
 [submodule "ag.vim"]
 	path = ag.vim
 	url = https://github.com/rking/ag.vim
+[submodule "vim-ctrlspace"]
+	path = vim-ctrlspace
+	url = https://github.com/szw/vim-ctrlspace.git
